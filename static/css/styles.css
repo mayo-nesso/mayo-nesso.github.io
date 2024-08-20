@@ -1,0 +1,22 @@
+.gradient-text {
+  background-color: #3496d3;
+  background-image: linear-gradient( 90deg, #7a71f8 25%,#3496d3 75%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.thumbnail-container {
+  margin-right: 20px; /* Espaciado entre la imagen y el contenido */
+  max-width: 150px; /* Ajusta el ancho máximo del thumbnail */
+}
+
+.thumbnail-container img {
+  width: 100%; /* Asegúrate de que la imagen no sobresalga del contenedor */
+  height: auto; /* Mantén la relación de aspecto de la imagen */
+}
+
+.content-container {
+  flex: 1; /* Hace que el contenido ocupe el resto del espacio disponible */
+}
