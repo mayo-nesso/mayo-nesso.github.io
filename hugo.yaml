@@ -8,9 +8,16 @@ languageCode: en-us
 params:
   defaultTheme: auto
   
-  homeInfoParams:
-    title: "Hey! I'm Mayo"
-    content: "or at least how my friends call me :)"
+  profileMode:
+    enabled: true
+  # homeInfoParams:
+    title: "**Hey! I'm Mayo**"
+    subtitle: "or at least how my friends call me :)"
+    # content: "or at least how my friends call me :)"
+    imageUrl: "/imgs/sm_sq.jpg" #
+    imageTitle: "(this is me, and a book)" # optional
+    imageWidth: 384 # custom size
+    imageHeight: 384 # custom size
   
   socialIcons:
     - name: "github"
