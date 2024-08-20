@@ -4,6 +4,7 @@
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -19,4 +20,10 @@
 
 .content-container {
   flex: 1; /* Hace que el contenido ocupe el resto del espacio disponible */
+}
+
+
+h1 {
+  font-size: 42;
+  font-weight: 800;
 }
