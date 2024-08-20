@@ -4,3 +4,59 @@ title: My New Hugo Site
 
 theme: ["PaperMod"]
 
+languageCode: en-us
+
+
+params:
+  defaultTheme: auto
+  
+  homeInfoParams:
+    title: "Hey! I'm Mayo"
+    content: "or at least how my friends call me :)"
+  
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/mayo-nesso"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/smayorga/"
+    - name: "stackoverflow"
+      url: "https://stackoverflow.com/users/4848859/mayo"
+    # - name: "instagram"
+    #   url: "https://www.instagram.com/thebigmayowski"
+  
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  TocOpen: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  
+  DateFormat: "Jan 02, 2006"
+
+  # Avoid `Failed to find a valid digest in the 'integrity' attribute for resource`
+  # But maybe remove in production?
+  assets:
+    disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    android-chrome-192x192: "/android-chrome-192x192.png"
+    android-chrome-512x512: "/android-chrome-512x512.png"
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
+    - identifier: about
+      name: About.me
+      url: /about/
+      weight: 20
+    - identifier: photography
+      name: 📷
+      url: https://www.instagram.com/thebigmayowski/
+      weight: 30
+    
