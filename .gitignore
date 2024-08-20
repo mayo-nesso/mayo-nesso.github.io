@@ -1,0 +1,15 @@
+.DS_Store
+node_modules
+dist
+tmp
+
+
+# Hugo
+public/
+
+# Backup Files
+*.markdown~
+*.md~
+
+# Temporary lock file while building
+/.hugo_build.lock
