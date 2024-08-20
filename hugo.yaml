@@ -1,7 +1,5 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
-
+baseURL: "https://www.mayonesso.com/"
+title: MayoNesso.com
 theme: ["PaperMod"]
 
 languageCode: en-us
