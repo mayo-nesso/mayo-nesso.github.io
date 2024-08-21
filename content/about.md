@@ -1,10 +1,7 @@
 ---
 title: "About me!"
-# date: 2020-09-15T11:30:03+00:00
 weight: 1
 aliases: ["/about"]
-# tags: ["about"]
-# author: "Me"
 showToc: false
 TocOpen: false
 draft: false
@@ -23,51 +20,135 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "https://media.licdn.com/dms/image/D4E03AQHtghWYfHLIXw/profile-displayphoto-shrink_400_400/0/1707986966725?e=1729123200&v=beta&t=dJrTEtwpRK_y5nsKIyxzRZia7Nn14hhgBRYH3RCU6S0" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
+    image: "/imgs/sm_magritte.jpg"
+    Height: 400
+    Width: 400
+    alt: "Magritte exposition at the SFMoMA @ San Francisco, 2018"
+    caption: ""
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on a current single page
+    hidden: false # only hide on a current single page
 ---
 
-Software Engineer but also a human. 
+</br>
 
-Currently living in sunny Barcelona exploring the realms of the freelance universe. 
-Passionate about learning, creating, and sharing.
+## **The Beginning of an Era**
 
+<div style="text-align: center;">
+    <img src="/imgs/logo_start300.png" alt="Logo screen">
+    </p>
+</div>
 
-## **The beggining of a Era**
+Ever thought a virtual turtle could change your life?
+</br>
 
-120mhz, 12MB of RAM, and a disk with the obscene capacity of 1.2Gb!
-It was summer of 1997 and that all that you would ever dream of.
+Well, it happened to me.
+</br>
+It all started with Logo on a 386 running at 33MHz (yes, Turbo button included).
 
-- first memories, logo? that app to create postcards? Carmen sandiego?
+Even when I was just a kid, unable to understand my or that turtle's world, something settled in me, like a logic bomb.
 
-- From there school palying games, modifying `con` files from duke nukem 3d, playing custom wad files, attempt a whole summer to move quake I (50 mb) on old disquetes of 1.44m (used fix disk to fix them)
-- Playing with telnet, Back Orifice, scanning maps, reading the Hacker Manifesto, attempting to recreate a blue box, memorizing the ports and its uses, 
+But the real spark ignited was when an *Aptiva L22* landed at home.
+</br>
+Imagine this; A 120 MHz Pentium, 12 MB of RAM, a 1.2 Gb hard drive.
+
+It was summer, and my chair and I fused in perfect symbiosis.
+
+What do I remember the most?
+</br>
+Honestly, feeling like an astronaut tumbling into unexplored space, tweaking system settings to the point of breaking things.
+</br>
+Bringing the system back to life with the "Product Recovery" CD.
+
+<div style="text-align: center;">
+    <img src="/imgs/recovery_product_alpha250.png" alt="Product Recovery CD">
+    <div>Thanks to this guy, I didn't end up </br>sleeping under a bridge.</div>
+</div>
+</br>
+</br>
+
+From there, it was a slippery slope: tinkering with configuration files, fooling around with Telnet, playing with Back Orifice, scanning ports here and there, some naive attempts to recreate a bluebox...
+
+Oh, and formatting friends' PCs... for free, of course.
 
 ## **Education**
 
-Lic and BE, suffering with ones, enjoying others. 
-Decieded to pursue ind eng, instead of cc, thinking that a broader view would be benefitial,
-cons and pros of that.
+I was decent at school, but disagreed with their "be demanding" philosophy.
+</br>
+Naturally, no one asked for my opinion.
 
+That until a $200 bill for "free internet I pulled from somewhere" showed up.
+</br>
+Nothing like guilt to awaken responsibility, eh?
+
+When the time came to decide my future, I chose civil engineering.
+</br>
+Spoiler: I discovered that being "good at math" was an oxymoron, and the university wasn't interested in my philosophy on demanding-ness either.
+
+Despite sleepless nights and existential crises, I graduated in Industrial Civil Engineering with an IT diploma.
+
+My logic back then?
+</br>
+Not to pigeonhole myself into pure computer science.
+</br>
+Ironic, to say the less, considering where I am now.
+
+But in defense of my past-self that broad vision has been more useful than I care to admit.
 
 ## **Life, here and there**
 
-CL, US, ES,
+Enjoy the ride, they say.
 
-## **Languages and tools**
+Although I spent the last years at the University working in software, upon graduating my world transformed into PowerPoint presentations, sales meetings, and corporate t-shirts.
 
-I can list dozens of languages that I can “Hello World” in, but I’m not going to. 
-Instead, I’ll tell you that I’m currently focusing most of my efforts on Rust, Go, and Dart at this time. 
-Particularly, I'm learning Rust, writing Go when it makes sense and looking to grow Dart's developer ecosystem. 
+<div style="text-align: center;">
+    <img src="/imgs/dilbert_sales_600.png" alt="Dilbert comic about sales">
+    <div>As usual, Dilbert has something to say.</div>
+    </p>
+</div>
 
-## **Extra stuff that no one asked for...**
+Funny to say; I didn't feel it demmanding enough! and  the siren call of code was too strong to resist.
 
-When I'm free from obligations, I try to spend time with my lovely wife and two dogs. 
-I'll also find time to work on open source projects, my own personal projects, 
-and am always trying to find the time to read more. 
-If you’re near Louisville, Kentucky, let's go grab coffee and talk about what you're working on!
+So, I regrouped Trops and went back into software.
+</br>
+I landed a job at a startup in Santiago, Chile, creating video games, as you can guess no more office t-shirts.
+</br>
+The startup later caught the eye of *DeNA*, leading to an unexpected plot twist that transported me to the tech mecca of San Francisco.
 
+Like any good startup story, there were ups and downs, invaluable learnings, and my first mass layoff experience. Great years, no doubt.
 
+After that, still in *the valley*, as they call it, I led a team in a small gaming startup. Learning the intricacies of managing a team, dealing with technical debt while balancing a product vision with unthinkable deadlines.
+
+Imagine an intensive leadership course in a highly dynamic environment.
+</br>
+But the same dynamism has two sides, after over two years, the company would close its doors.
+
+In 2019, I returned to Chile to work on educational games at *OCLPlay*, a brand-new gaming company, in partnership with another giant, *Osmo*.
+</br>
+There I led a highly talented team, while discovering the satisfaction of crafting products both fun and educational.
+</br>
+Technical and human challenges, COVID in the middle, many hats to wear, stakeholders across continents.
+Another adventure of learning and fun.
+</br>
+And then, another round of massive layoffs.
+
+But the expat bug had bitten me again, so I decided to leave Chile, and long story short, that's how I ended up in sunny Barcelona, nowadays doing freelancing gigs, flirting with other stacks and roles, exploring this side of the planet.
+
+## **Languages ​​and tools**
+
+Is this where we talk about the good ol' days of J2ME?
+
+<div style="text-align: center;">
+    <img src="/imgs/n95_200.png" alt="N95 with J2ME program">
+    <div>This was what the future was supposed to look like.</div>
+    </p>
+</div>
+
+Avoiding some *saudade* and to save time, it is best to say that I am comfortable with C# and Unity, I enjoy Go's simplicity, appreciate Python's usefulness, and I learning every day more about JS/TS along with React/Next.js and, to spicy up things a bit, NestJS too.
+
+## **Extra things that no one asked for...**
+
+In addition to software, I enjoy photography, exploring new places, riding a bike, and playing some games on chess.com.
+
+So, if you ever find yourself in Barcelona, ​​let's go for a coffee (or a beer) and talk about this fascinating world we live in.
+
+I promise not to format your computer... unless you ask me to.
