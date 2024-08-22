@@ -8,7 +8,8 @@ draft: false
 hidemeta: false
 comments: false
 description: ""
-canonicalURL: "https://mayonesso.com/about"
+# canonicalURL: "https://mayonesso.com/about"
+canonicalURL: "https://mayo-nesso.github.io/mayonesso.com/about"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: false
@@ -20,7 +21,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "/imgs/sm_magritte.jpg"
+    image: "imgs/sm_magritte.jpg"
     Height: 400
     Width: 400
     alt: "Magritte exposition at the SFMoMA @ San Francisco, 2018"
@@ -34,7 +35,7 @@ cover:
 ## **The Beginning of an Era**
 
 <div style="text-align: center;">
-    <img src="/imgs/logo_start300.png" alt="Logo screen">
+    <img src="imgs/logo_start300.png" alt="Logo screen">
     </p>
 </div>
 
@@ -60,7 +61,7 @@ Honestly, feeling like an astronaut tumbling into unexplored space, tweaking sys
 Bringing the system back to life with the "Product Recovery" CD.
 
 <div style="text-align: center;">
-    <img src="/imgs/recovery_product_alpha250.png" alt="Product Recovery CD">
+    <img src="imgs/recovery_product_alpha250.png" alt="Product Recovery CD">
     <div>Thanks to this guy, I didn't end up </br>sleeping under a bridge.</div>
 </div>
 </br>
@@ -101,7 +102,7 @@ Enjoy the ride, they say.
 Although I spent the last years at the University working in software, upon graduating my world transformed into PowerPoint presentations, sales meetings, and corporate t-shirts.
 
 <div style="text-align: center;">
-    <img src="/imgs/dilbert_sales_600.png" alt="Dilbert comic about sales">
+    <img src="imgs/dilbert_sales_600.png" alt="Dilbert comic about sales">
     <div>As usual, Dilbert has something to say.</div>
     </p>
 </div>
@@ -138,7 +139,7 @@ But the expat bug had bitten me again, so I decided to leave Chile, and long sto
 Is this where we talk about the good ol' days of J2ME?
 
 <div style="text-align: center;">
-    <img src="/imgs/n95_200.png" alt="N95 with J2ME program">
+    <img src="imgs/n95_200.png" alt="N95 with J2ME program">
     <div>This was what the future was supposed to look like.</div>
     </p>
 </div>
