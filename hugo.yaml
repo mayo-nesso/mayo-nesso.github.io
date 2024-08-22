@@ -26,8 +26,6 @@ params:
       url: "https://www.linkedin.com/in/smayorga/"
     - name: "stackoverflow"
       url: "https://stackoverflow.com/users/4848859/mayo"
-    # - name: "instagram"
-    #   url: "https://www.instagram.com/thebigmayowski"
   
   ShowShareButtons: true
   ShowReadingTime: true
