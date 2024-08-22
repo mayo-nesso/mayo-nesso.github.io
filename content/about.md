@@ -139,7 +139,7 @@ But the expat bug had bitten me again, so I decided to leave Chile, and long sto
 Is this where we talk about the good ol' days of J2ME?
 
 <div style="text-align: center;">
-    <img src="imgs/n95_200.png" alt="N95 with J2ME program">
+    <img src="imgs/n95_200.png" alt="N95 with J2ME programs">
     <div>This was what the future was supposed to look like.</div>
     </p>
 </div>
