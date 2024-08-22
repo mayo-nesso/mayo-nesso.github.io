@@ -1,5 +1,5 @@
 ---
-title: "About me!"
+title: "Who am I?!"
 weight: 1
 aliases: ["/about"]
 showToc: false
@@ -34,18 +34,19 @@ cover:
 
 ## **The Beginning of an Era**
 
-<div style="text-align: center;">
-    <img src="imgs/logo_start300.png" alt="Logo screen">
-    </p>
-</div>
+{{< figure
+    alt="Logo screen"
+    align=center
+    caption="...now what..."
+    src="/mayonesso.com/imgs/logo_start300.png"
+>}}
 
 Ever thought a virtual turtle could change your life?
-</br>
 
 Well, it happened to me.
-</br>
-It all started with Logo on a 386 running at 33MHz (yes, Turbo button included).
 
+It all started with *Logo* on a 386 running at 33MHz (yes, Turbo button included).
+</br>
 Even when I was just a kid, unable to understand my or that turtle's world, something settled in me, like a logic bomb.
 
 But the real spark ignited was when an *Aptiva L22* landed at home.
@@ -60,11 +61,15 @@ Honestly, feeling like an astronaut tumbling into unexplored space, tweaking sys
 </br>
 Bringing the system back to life with the "Product Recovery" CD.
 
-<div style="text-align: center;">
-    <img src="imgs/recovery_product_alpha250.png" alt="Product Recovery CD">
-    <div>Thanks to this guy, I didn't end up </br>sleeping under a bridge.</div>
-</div>
 </br>
+<div style="text-align: center;">
+    {{< figure
+        alt="Product Recovery CD"
+        align="center"
+        caption="Thanks to this guy, I didn't end up </br>sleeping under a bridge."
+        src="/mayonesso.com/imgs/recovery_product_alpha250.png"
+    >}}
+</div>
 </br>
 
 From there, it was a slippery slope: tinkering with configuration files, fooling around with Telnet, playing with Back Orifice, scanning ports here and there, some naive attempts to recreate a bluebox...
@@ -101,11 +106,16 @@ Enjoy the ride, they say.
 
 Although I spent the last years at the University working in software, upon graduating my world transformed into PowerPoint presentations, sales meetings, and corporate t-shirts.
 
+</br>
 <div style="text-align: center;">
-    <img src="imgs/dilbert_sales_600.png" alt="Dilbert comic about sales">
-    <div>As usual, Dilbert has something to say.</div>
-    </p>
+    {{< figure
+        align="center"
+        alt="Dilbert comic about sales"
+        caption="As usual, Dilbert has something to say."
+        src="http://mayo-nesso.github.io/mayonesso.com/imgs//dilbert_sales_600.png"
+    >}}
 </div>
+</br>
 
 Funny to say; I didn't feel it demmanding enough! and  the siren call of code was too strong to resist.
 
@@ -138,11 +148,16 @@ But the expat bug had bitten me again, so I decided to leave Chile, and long sto
 
 Is this where we talk about the good ol' days of J2ME?
 
+</br>
 <div style="text-align: center;">
-    <img src="imgs/n95_200.png" alt="N95 with J2ME programs">
-    <div>This was what the future was supposed to look like.</div>
-    </p>
+    {{< figure
+        align="center"
+        alt="N95 phone with J2ME programs"
+        caption="This was what the future was supposed to look like."
+        src="/mayonesso.com/imgs/n95_200.png"
+    >}}
 </div>
+</br>
 
 Avoiding some *saudade* and to save time, it is best to say that I am comfortable with C# and Unity, I enjoy Go's simplicity, appreciate Python's usefulness, and I learning every day more about JS/TS along with React/Next.js and, to spicy up things a bit, NestJS too.
 
