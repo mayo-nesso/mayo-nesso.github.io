@@ -65,3 +65,8 @@ menu:
       url: https://www.instagram.com/thebigmayowski/
       weight: 30
     
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
