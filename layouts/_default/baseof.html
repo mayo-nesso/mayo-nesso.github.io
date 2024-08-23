@@ -4,8 +4,8 @@
 
 <!DOCTYPE html>
 <html lang="{{ site.Language }}" dir="{{ .Language.LanguageDirection | default " auto" }}">
-<link rel="stylesheet" href="/css/tailwind.css">
-<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/tailwind.css" type="text/css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css" type="text/css">
 
 <head>
   {{- partial "head.html" . }}
