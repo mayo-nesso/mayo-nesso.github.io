@@ -38,7 +38,7 @@ cover:
     alt="Logo screen"
     align=center
     caption="...now what..."
-    src="/mayonesso.com/imgs/logo_start300.png"
+    src="/imgs/logo_start300.png"
 >}}
 
 Ever thought a virtual turtle could change your life?
@@ -67,7 +67,7 @@ Bringing the system back to life with the "Product Recovery" CD.
         alt="Product Recovery CD"
         align="center"
         caption="Thanks to this guy, I didn't end up </br>sleeping under a bridge."
-        src="/mayonesso.com/imgs/recovery_product_alpha250.png"
+        src="/imgs/recovery_product_alpha250.png"
     >}}
 </div>
 </br>
@@ -112,7 +112,7 @@ Although I spent the last years at the University working in software, upon grad
         align="center"
         alt="Dilbert comic about sales"
         caption="As usual, Dilbert has something to say."
-        src="http://mayo-nesso.github.io/mayonesso.com/imgs//dilbert_sales_600.png"
+        src="/imgs/dilbert_sales_600.png"
     >}}
 </div>
 </br>
@@ -154,7 +154,7 @@ Is this where we talk about the good ol' days of J2ME?
         align="center"
         alt="N95 phone with J2ME programs"
         caption="This was what the future was supposed to look like."
-        src="/mayonesso.com/imgs/n95_200.png"
+        src="/imgs/n95_200.png"
     >}}
 </div>
 </br>
