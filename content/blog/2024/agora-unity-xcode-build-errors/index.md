@@ -28,7 +28,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 ---
-
+## • Introduction
 
 So, inspired by [learn in public](https://www.swyx.io/learn-in-public) (yep, from that comes the \[LiP\] tag…) I am here sharing a little adventure that I came up with last week exploring UpWork trying to find something that my _zero-rating-zero-stars_ status could be enough for.
 
@@ -43,7 +43,7 @@ So, looking into Unity stuff I saw a problem in the signing process that someone
 
 But the good thing (and a smart move) from the job description was that all the repro steps were there. “Is this Unity version...”, “Is this specific plugin”, “These are the repro steps”, “And this is the error that we are getting”.
 
-## Digging into it…
+## • Digging into it…
 
 While my gf was fighting with her landlord over emails before we went dining out. I downloaded the plugin, set the specific Unity version, and got the same error with the delightful repro steps.
 
@@ -69,7 +69,7 @@ The error on Xcode was still there and my girlfriend was almost done with the cu
     src="success.webp"
 >}}
 
-## What next?
+## • What's next?
 
 This wasn’t a theoretical exercise, but a **weird** attempt to try to get my first job on UpWork, so I went to the platform, took some screenshots of before/after (I had to create a new project & fix it again), and wrote a “presentation” letter **completely different** from my other attempts where I try to, somehow with words, convince someone that I actually can do the job at hand.  
 This time I just said that I was able to reproduce the error, that I found a fix, and that I was attaching screenshots of it.
@@ -78,7 +78,7 @@ This time I just said that I was able to reproduce the error, that I found a fix
 
 The next day I receive a message from the client and we start working on the solution. A _few_ simple steps that in the end I put together in a PostBuild script + a ScriptableObject to set up the required parameters ([repo here](https://github.com/mayo-nesso/AgoraPostBuildFix)).
 
-## Some lessons learned…
+## • Some lessons learned…
 
 Maybe the most important one is that **if you don’t have a reputation in places like UpWork, you will have to work for reduced fees or even for free**.  
 But the point is to do it smartly. Pick a ~job~ task that you can finish in a reasonable amount of time and just do it. Before even applying.
