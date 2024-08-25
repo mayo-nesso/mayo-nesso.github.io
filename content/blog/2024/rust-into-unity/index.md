@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-canonicalURL: "http://mayonesso.com/blog/2024/rust-into-unity/"
+canonicalURL: "https://mayonesso.com/blog/2024/rust-into-unity/"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: false
