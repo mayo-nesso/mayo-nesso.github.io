@@ -1,5 +1,5 @@
-# baseURL: "https://mayonesso.com/"
-baseURL: "https://mayo-nesso.github.io/mayonesso.com/"
+baseURL: "https://mayonesso.com/"
+# baseURL: "https://mayo-nesso.github.io/"
 title: MayoNesso.com
 theme: ["PaperMod"]
 
