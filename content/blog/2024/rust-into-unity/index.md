@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-canonicalURL: "https://canonical.url/to/page"
+canonicalURL: "http://mayonesso.com/blog/2024/rust-into-unity/"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: false
@@ -26,7 +26,7 @@ UseHugoToc: true
 cover:
     image: "cover.jpg" # image path/url
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 ---
 ## • Introduction
 
