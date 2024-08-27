@@ -8,8 +8,7 @@ draft: false
 hidemeta: false
 comments: false
 description: ""
-# canonicalURL: "https://mayonesso.com/about"
-canonicalURL: "https://mayo-nesso.github.io/mayonesso.com/about"
+canonicalURL: "https://mayonesso.com/about"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 hideSummary: false
@@ -88,7 +87,7 @@ Nothing like guilt to awaken responsibility, eh?
 
 When the time came to decide my future, I chose civil engineering.
 </br>
-Spoiler: I discovered that being "good at math" was an oxymoron, and the university wasn't interested in my philosophy on demanding-ness either.
+Spoiler: I discovered that "I was good at math" was an oxymoron, and the university wasn't interested in my philosophy on demanding-ness either.
 
 Despite sleepless nights and existential crises, I graduated in Industrial Civil Engineering with an IT diploma.
 
@@ -119,11 +118,11 @@ Although I spent the last years at the University working in software, upon grad
 
 Funny to say; I didn't feel it demmanding enough! and  the siren call of code was too strong to resist.
 
-So, I regrouped Trops and went back into software.
+So, I regrouped troops and went back into software.
 </br>
 I landed a job at a startup in Santiago, Chile, creating video games, as you can guess no more office t-shirts.
 </br>
-The startup later caught the eye of *DeNA*, leading to an unexpected plot twist that transported me to the tech mecca of San Francisco.
+The startup later caught the eye of *DeNA*, leading to an interesting plot twist that transported me to the tech mecca of San Francisco.
 
 Like any good startup story, there were ups and downs, invaluable learnings, and my first mass layoff experience. Great years, no doubt.
 
@@ -159,7 +158,7 @@ Is this where we talk about the good ol' days of J2ME?
 </div>
 </br>
 
-Avoiding some *saudade* and to save time, it is best to say that I am comfortable with C# and Unity, I enjoy Go's simplicity, appreciate Python's usefulness, and I learning every day more about JS/TS along with React/Next.js and, to spicy up things a bit, NestJS too.
+Avoiding some *saudade* and to save time, it is best to say that I am comfortable with C# and Unity, I enjoy Go's simplicity, appreciate Python's usefulness, and I am in the process of learning every day more about JS/TS along with React/Next.js and, to spicy up things a bit, NestJS too.
 
 ## **Extra things that no one asked for...**
 
