@@ -1,6 +1,6 @@
 ---
 title: "[How2]: Connecting to Firestore (a NoSQL db) with Python!"
-weight: 1
+weight: 2
 tags: ["python", "firestore", "how2", "GCP"]
 # author: "Me"
 showToc: true

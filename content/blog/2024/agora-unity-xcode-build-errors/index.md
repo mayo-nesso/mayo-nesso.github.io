@@ -2,7 +2,7 @@
 title: "[LiP] Upwork Adventures; Fixing a Unity/XCode Build Error"
 # date: 2020-09-15T11:30:03+00:00
 # description: "Brief guide to integrate Rust code into Unity"
-weight: 2
+weight: 20
 # aliases: ["/p22"]
 tags: ["LiP", "unity", "xcode", "agora", "build errors"]
 # author: "Me"
