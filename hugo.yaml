@@ -5,6 +5,9 @@ theme: ["PaperMod"]
 
 languageCode: en-us
 
+services:
+  googleAnalytics:
+    ID: G-MFRQVYSNGV
 
 params:
   defaultTheme: auto
@@ -54,6 +57,10 @@ menu:
       name: Blog
       url: /blog/
       weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 15
     - identifier: about
       name: About.me
       url: /about/
