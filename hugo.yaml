@@ -57,10 +57,10 @@ menu:
       name: Blog
       url: /blog/
       weight: 10
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 15
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects/
+    #   weight: 15
     - identifier: about
       name: About.me
       url: /about/
