@@ -1,38 +1,30 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
-# weight: 1
-# aliases: ["/first"]
-tags: ["first"]
-author: "Me"
-# author: ["Me", "You"] # multiple authors
+title: "[LiP] Title"
+#weight: 1
+tags: ["first", "post", "tags"]
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: false
 comments: false
-description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
-disableShare: false
-disableHLJS: false
+canonicalURL: "https://mayonesso.com/..."
+disableHLJS: true
+disableShare: true
 hideSummary: false
+summary: ""
 searchHidden: true
 ShowReadingTime: true
-ShowBreadCrumbs: true
+ShowBreadCrumbs: false
 ShowPostNavLinks: true
 ShowWordCount: true
-ShowRssButtonInSectionTermList: true
+ShowRssButtonInSectionTermList: false
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
-editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    image: "cover.webp"
+    # alt: "alt text..."
+    # caption: "caption..."
+    relative: false
+    hidden: false
 ---
 
+## • Introduction
