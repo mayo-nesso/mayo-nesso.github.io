@@ -429,7 +429,7 @@ using (var builder = renderGraph.AddRasterRenderPass<BlitPassData>(blitPassName,
 }
 ```
 
-> All the details are in `MaterialToLayerRenderPass.cs` take it a look, there are a lot of comments!
+> All the details are in [`MaterialToLayerRenderPass.cs`](https://github.com/mayo-nesso/urp-metaballs/blob/main/Assets/Scripts/MaterialToLayerRenderPass.cs) take it a look, there are a lot of comments!
 
 What is left is create a new Layer, and assign our balls to it.</br>
 Then, we will unselect that Layer from the rendering process (since we are going to take care of the drawing itself)
