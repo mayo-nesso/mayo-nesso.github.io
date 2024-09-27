@@ -2,7 +2,7 @@
 title: "[How2]: Rust Code in Unity: A Succinct Guide"
 # date: 2020-09-15T11:30:03+00:00
 # description: "Brief guide to integrate Rust code into Unity"
-weight: 1
+weight: 5
 # aliases: ["/p22"]
 tags: ["unity", "rust"]
 # author: "Me"
