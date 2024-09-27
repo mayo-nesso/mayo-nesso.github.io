@@ -169,7 +169,7 @@ On low-end devices, this can negatively affect your frame rate (especially if yo
 - Unity 6
 - A Universal Render Project (Since we're in Unity6, the URP version is 17.03)
 
-## • First step: Shader 4 Circles
+## • First step: Shader for Circles
 
 Instead of blur, we are going to use a shader to draw our Metaballs with an opaque body and a gradual semi-transparent border (more opaque to the center, more transparent to the 'outside').
 
