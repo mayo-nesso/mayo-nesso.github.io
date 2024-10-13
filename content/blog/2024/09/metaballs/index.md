@@ -42,7 +42,7 @@ And this post is precisely about that.
 
 Well, maybe not so beautiful things, but some basic attempts.
 
-## • Metaballls: What are they?
+## • Metaballs: What are they?
 
 {{< figure
     src="imgs/1_metaballs.gif"
@@ -55,7 +55,7 @@ This brings us back to Metaballs: What are they? The simplest and most direct wa
 
 Those viscous balls that would join and then separate in a somewhat animal-like way?
 
-Well, Metaballs are about that effect, and this article, like many other, is about how to achieve it.
+Well, Metaballs are about that effect, and this article, like many others, is about how to achieve it.
 
 ## • How to 'achieve' the effect
 
@@ -73,7 +73,7 @@ The mathematical way, and the slightly trickier way.
 >}}
 
 The first approach, more elegant, follows a technique called "Marching Cubes".</br>
-It was published in 1987 in a paper called "Marching cubes: A high resolution 3D surface construction algorithm".
+It was published in 1987 in a paper called "Marching Cubes: A High Resolution 3D Surface Construction Algorithm".
 
 In a simplified view, it uses information from circumferences and the vertices of a grid of cubes in space to draw.</br>
 Draw what? Well, whatever needs to be drawn.
@@ -102,7 +102,7 @@ In the second approach, slightly more ingenious tricks are used to calculate or 
 Specifically, we can use elements that have an opaque color with a semi-transparent gradient border.</br>
 Now we can use the alpha values (which indicate how opaque or transparent the color is) to achieve the the final effect.</br>
 So, in a post-drawn process, we define some alpha thresholds to draw our Metaballs.</br>
-We can define more than one level, so we can have one color for the body and other for the border.
+We can define more than one level, so we can have one color for the body and another for the border.
 
 {{< figure
     src="imgs/4_split.png"
@@ -111,7 +111,7 @@ We can define more than one level, so we can have one color for the body and oth
 >}}
 
 In the case of a single element, there's nothing very interesting to see.</br>
-But when two bodies get close, their respective semi-transparent borders will join forces to 'saturate' the alpha channel until they reach the threshold that indicates that we have to draw *something* on screen.
+But when two bodies get close, their respective semi-transparent borders will join forces to 'saturate' the alpha channel until they reach the threshold that indicates that we have to draw *something* on the screen.
 
 {{< figure
     src="imgs/5_close.png"
@@ -132,11 +132,11 @@ In the first approach:
 
     Note that this technique works for 3D and also for 2D, hence the name "Marching Cubes" or "Marching Squares".
 
-In the second category, I share with you this four implementations;
+In the second category, I share with you these four implementations;
 
 - 2.a. [A cool tutorial from Daniel Lilett](https://danielilett.com/2020-03-28-tut5-2-urp-metaballs/) where he uses the metaball positions and radius to calculate the 'closeness' and to draw the 'area of influence'; then 'apply the colors according to it' on a render pass
 
-- 2.b. [A smart and tricky approach where Artjoms Neimanis](https://patomkin.com/blog/metaball-tutorial/) uses Blur effect to obtain the 'alpha' channel, overlapping balls will saturate the 'area of influence' and an extra camera applies the colors according to the rules on a shader in a dedicated render texture
+- 2.b. [A smart and tricky approach where Artjoms Neimanis](https://patomkin.com/blog/metaball-tutorial/) uses the Blur effect to obtain the 'alpha' channel, overlapping balls will saturate the 'area of influence' and an extra camera applies the colors according to the rules on a shader in a dedicated render texture
 
 - 2.c. [An evolved version of the previous one by HuvaaKoodia](https://github.com/HuvaaKoodia/2DMetaballs) here we avoid the use of an extra camera and the render texture, applying the effect on a render pass
 
@@ -146,7 +146,7 @@ In the second category, I share with you this four implementations;
 
 With Marching, there are some limitations, you can't just put different colors on the edges, just 'contours' (Although with some work I think it could be done, for instance; having a second system that would draw a second pass with a more adjusted 'contour' level?).
 
-On the others I would like to be able to avoid blur, or to have to pass information about the location of each metaball on each frame.
+On the others, I would like to be able to avoid blur or to have to pass information about the location of each metaball on each frame.
 
 And that's the reason for this post; here I'm not coming to sell but to give away.
 
@@ -154,7 +154,7 @@ My idea is to remove the blur, using the alpha trick (which we will achieve with
 
 ### Why does the blur bother me?
 
-Blur effect is calculated copying, moving and overlaying a semi-transparent version of the texture, giving the desired effect.</br>
+The blur effect is calculated by copying, moving, and overlaying a semi-transparent version of the texture, giving the desired effect.</br>
 And this is done over multiple 'passes'.</br>
 On low-end devices, this can negatively affect your frame rate (especially if you're doing a blur on every frame!), so it's sometimes good to look for alternatives.
 
@@ -175,7 +175,7 @@ Instead of blur, we are going to use a shader to draw our Metaballs with an opaq
 
 The idea is to define which part of our circle will be solid and which part will be our 'area of influence', that is, when two balls are close, their areas of influence will be added to make the linking effect appear.
 
-For this we have the following code. Pretty simple, but it works.
+For this, we have the following code. Pretty simple, but it works.
 
 ```c
 Shader "Custom/GradientCircle"
@@ -276,7 +276,7 @@ We create a new material with this shader and, voilà:
     src="imgs/8_parameters.png"
     align="center"
     width="500"
-    caption="`Radius` and `Smoothness` are some parameters that we can adjust,</br> we also have `Color` but is not that useful"
+    caption="`Radius` and `Smoothness` are some parameters that we can adjust,</br> we also have `Color` but it is not that useful"
 >}}
 
 ## • Second step: URP Custom Pass | Render Feature
@@ -289,9 +289,9 @@ Once we have all the spheres on the screen, we are ready to draw the effect.</br
     width="400"
 >}}
 
-To do this we will create a second shader and a custom render pass, well, strictly speaking 2 passes.
+To do this, we will create a second shader and a custom render pass. Well, strictly speaking two passes.
 
-This second shader will draw depending on the amount of alpha present, in this way we are able to paint the body of the Metaballs and the border.
+This second shader will draw depending on the amount of alpha present, in this way, we can paint the body of the Metaballs and the border.
 
 This time, we will use *Shader Graph*, and we are going to call it `MetaEffect`:
 
@@ -303,7 +303,7 @@ This time, we will use *Shader Graph*, and we are going to call it `MetaEffect`:
     caption="*...click me!*"
 >}}
 
-With this settings (The important part: `Material` = `Fullscreen`):
+With these settings (The important part: `Material` = `Fullscreen`):
 
 {{< figure
     src="imgs/11_shader_graph_settings.png"
@@ -311,7 +311,7 @@ With this settings (The important part: `Material` = `Fullscreen`):
     width="400"
 >}}
 
-And with the follow properties:
+And with the following properties:
 
 {{< figure
     src="imgs/12_shader_graph_properties.png"
@@ -321,17 +321,17 @@ And with the follow properties:
 
 The `Border Color` and `Body Color` parameters represent the respective colors of the border and the body.</br>
 The `Min Alpha Threshold` defines the minimum alpha value that will be considered as part of the border, while the `Body Threshold` specifies the minimum alpha value that will be classified as part of the body.</br>
-Any alpha value that falls between the Min Alpha Threshold and the Body Threshold will be regarded as part of the border.
+Any alpha value that falls between the `Min Alpha Threshold` and the `Body Threshold` will be regarded as part of the border.
 
 Now, for our custom render pass!
 
 In the first pass, we draw our semi-transparent balls on a temporary texture.</br>
 
 There are some caveats though.</br>
-On one hand, we don't want to show our originals balls, just the resulting effect of it.</br>
+On one hand, we don't want to show our original balls, just the effect of it.</br>
 And we don't want to apply this to everything that is on the screen, only to our balls.</br>
 
-In order to do this, in our render pass we will work only with an specific layer, so we will create a `FilteringSettings` to only select a specific layer during the process:
+To do this, in our render pass we will work only with a specific layer, so we will create a `FilteringSettings` to only select a specific layer during the process:
 
 ```csharp
 // Settings to filter which renderers should be drawn
@@ -431,7 +431,7 @@ using (var builder = renderGraph.AddRasterRenderPass<BlitPassData>(blitPassName,
 
 > All the details are in [`MaterialToLayerRenderPass.cs`](https://github.com/mayo-nesso/urp-metaballs/blob/main/Assets/Scripts/MaterialToLayerRenderPass.cs) take it a look, there are a lot of comments!
 
-What is left is create a new Layer, and assign our balls to it.</br>
+What is left is to create a new Layer, and assign our balls to it.</br>
 Then, we will unselect that Layer from the rendering process (since we are going to take care of the drawing itself)
 
 ## • Unity Scene
@@ -537,7 +537,7 @@ And if we go to the `Frame Debugger` we will see what is happening behind the cu
     caption="Second pass"
 >}}
 
-And since we are here, let's take a look to the `Render Graph Viewer`
+And since we are here, let's take a look at the `Render Graph Viewer`
 
 {{< figure
     src="imgs/25_render_graph_viewer.png"
@@ -546,6 +546,13 @@ And since we are here, let's take a look to the `Render Graph Viewer`
     caption="Mat2Layer passes 1 and 2..."
 >}}
 
+## • Conclusion: Blobs and Beyond
+
+And there you have it. We've ventured from abstract equations to smooth, organic shapes dancing across your screen. Metaballs may seem like simple blobs at first, but behind them lies a world of blending functions, threshold values, and a bit of computational magic.
+The next time you see those mesmerizing, fluid visuals in games or animations, remember that it's more than just pixels - it's a mix of math and code working together.
+I hope you enjoyed reading this tutorial and, as usual, comments, doubts, questions, suggestions, etc… are all welcome!
+
 ## • Source Code
 
 [Here URP Metaballs :)](https://github.com/mayo-nesso/urp-metaballs)
+Until next time!
