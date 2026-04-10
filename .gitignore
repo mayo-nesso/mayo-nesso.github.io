@@ -6,6 +6,7 @@ tmp
 
 # Hugo
 public/
+resources/_gen/
 
 # Backup Files
 *.markdown~
