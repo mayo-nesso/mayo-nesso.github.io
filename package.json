@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "overrides": {
+    "picomatch": ">=2.3.2"
+  },
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "micromatch": "^4.0.8",
